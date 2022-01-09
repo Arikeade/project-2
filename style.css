@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: #303030;
+}
+header {
+    background-color: #000;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 50px 20px 10rem;
+    align-items: center;
+}
+.space {
+    padding: 20px;
+    color: #fff;
+}
+nav a:link, nav a :visited {
+    font-size: 15px;
+    text-decoration: none;
+
+}
+nav a:hover {
+   text-decoration: underline;
+}
+nav a:active{
+    color: purple;
+}
+#first {
+    background-image:linear-gradient( 
+        rgba(0, 0, 0, 0.5), 
+       rgba(0, 0, 0, 0.5) 
+       ),url('../biography/images/pexels-charles-parker-5847454.jpg');
+    padding-top: 15rem;
+    background-position: center;
+    
+}
+.button1 {
+    border-radius: 35px;
+    border: 2px solid #e0a80d;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;   
+
+}
+#about {
+    display: flex;
+    margin: 8rem;
+}
+.third {
+    text-align: left;
+    margin-left: 50px;
+
+}
+.fourth {
+    display: flex;
+}
+.one {
+    background-color: gold;
+    margin-right: 10px;
+    padding: 7px 15px;
+    border-radius: 20px;
+    border: none;
+}
+.two {
+    background-color: black;
+    padding: 7px 30px;
+    border-radius: 20px;
+    border: 2px solid gold;
+}
+#services {
+    margin-bottom: 6rem;
+}
+
+.grid-container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.grid-div1 {
+    background-color: black;
+    padding: 25px;
+    text-align: left;
+    margin-right: 10px;
+}
+#flx {
+    width: 100%;
+    margin: auto;
+    background-image: linear-gradient( 
+        rgba(0, 0, 0, 0.8), 
+       rgba(0, 0, 0, 0.8)
+    ),url(../biography/images/pp.jpg);
+    background-position: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-div {
+    color: #fff;
+    font-size: 13px;
+}
+#portifolio {
+    padding-top: 5rem;
+}
+.sixth {
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    margin: auto;
+    list-style: none;
+
+}
+.projects {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 7rem;
+}
+.button {
+    background-color: gold;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 8px;
+    color: #fff;
+}
+.pics {
+    border: 2px solid gold ;
+    border-radius: 50px;
+}
+#last {
+    background-image:  linear-gradient( 
+        rgba(0, 0, 0, 0.9), 
+       rgba(0, 0, 0, 0.9)
+    ),url(../biography/images/study4.jpg);
+    background-position: center;
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+}
+.slidecontainer {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.size {
+    width: 30%;
+    margin: auto;
+    padding: 0px 9rem;
+    color: gold;
+    display: none;
+    position: relative;
+}
+.dots {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);  
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+footer {
+    padding-top: 5rem;
+    width: 100%;
+    margin: auto;
+}
+.form {
+    display: flex;
+    text-align: left;
+    margin-bottom: 8rem;
+
+}
+.style {
+    width: 100%; 
+    border-radius: 5px;
+    border: 0;
+    padding: 15px;
+    
+}
+.input-style {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 10px;
+}
+textarea {
+    resize: none;
+}
+.style {
+    padding: 8px; 
+    border-radius: 5px; 
+    border: 0;
+}
+.last {
+    background-color: #000;
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+.col-1 { width: 83.3% }
+.col-2 { width: 16.67% }
+.col-3 { width: 25% }
+.col-4 { width: 33.33% }
+.col-5 { width: 41.67% }
+.col-6 { width: 50% }
+.col-7 { width: 58.33% }
+.col-8 { width: 66.67% }
+.col-9 { width: 75% }
+.col-10 { width: 83.33% }
+.col-11 { width: 91.67 %}
+.col-12 { width: 100%; }
